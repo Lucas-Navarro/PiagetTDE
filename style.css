@@ -111,9 +111,6 @@ nav > ul > li > a {
 #rodape {
 	background-color: #717171;
 	padding: 35px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 #rodape_logo {
@@ -123,7 +120,20 @@ nav > ul > li > a {
 	margin: 0 10px 0 0;
 }
 
-footer > h1 {
+footer > section > h1 {
 	text-transform: uppercase;
 	color: #fff;
+}
+
+#rodape_logo_nome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#rodape_copy {
+	padding: 10px 0 0 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
 }
