@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* Construção do cabeçalho */
+#cabecalho {
+	padding: 35px;
+	background-color: #717171;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#cabecalho_logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	margin: 0 10px 0 0;
+}
+
+#retangulo {
+	background-color: #D9D9D9;
+	width: 10px;
+	height: 50px;
+	margin: 0 10px 0 10px;
+}
+
+/* Navegação disponível */
+#navegacao {
+	margin: 25px 0 0 50px;
+}
+
+.navegacao__link {
+	color: #000;
+	font-weight: 600;
+}
+
+/* Conteudo */
+#conteudo {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin: 50px 300px 50px 300px
+}
+
+#conteudo_titulo {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 48px;
+	margin: 0 0 60px 0;
+}
+
+.conteudo_imagem {
+	width: 80%;
+	height: 400px;
+	margin: 0 0 60px 0;
+}
+
+#conteudo_texto {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.texto {
+	margin: 0 0 40px 0;
+}
+
+
+/* Seção navegação */
+#secao_navegacao {
+	color: #f00;
+	filter: drop-shadow(1px 1px #000);
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+nav > h2 {
+	margin: 50px;
+}
+
+.lista_secao {
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline;
+	padding: 50px;
+}
+
+nav > ul > li > a {
+	color: #f00;
+	text-decoration: none;
+}
+
+.secao_seta {
+	vertical-align: middle;
+	padding: 10px;
+}
+
+/* Rodapé */
+
+#rodape {
+	background-color: #717171;
+	padding: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#rodape_logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	margin: 0 10px 0 0;
+}
+
+footer > h1 {
+	text-transform: uppercase;
+	color: #fff;
+}
